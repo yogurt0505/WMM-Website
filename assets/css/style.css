@@ -590,7 +590,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #5cb874;
+  background: #fb2f38;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -694,7 +694,7 @@ section {
   display: block;
   font-size: 24px;
   font-weight: 400;
-  color: #6ec083;
+  color: #fb2f38;
 }
 
 .why-us .content-item h4 {
@@ -718,7 +718,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Clients
+# Other Platform
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
   opacity: 0.5;
@@ -1177,8 +1177,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #5cb874;
-  border-bottom: 3px solid #5cb874;
+  border-top: 3px solid #fb2f38;
+  border-bottom: 3px solid #fb2f38;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1187,11 +1187,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #5cb874;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eaf6ed;
+  background: #2c52b3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1234,21 +1234,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #5cb874;
+  background: #2c52b3;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #5cb874;
+  background: #fb2f38;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #5cb874;
-  border-bottom: 3px solid #5cb874;
+  border-top: 3px solid #fb2f38;
+  border-bottom: 3px solid #fb2f38;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1310,7 +1310,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5cb874;
+  border-color: #2c52b3;
 }
 
 .contact .php-email-form input {
@@ -1322,7 +1322,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5cb874;
+  background: #2c52b3;
   border: 0;
   padding: 10px 24px;
   color: #fff;
