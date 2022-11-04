@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:600|Poppins:300,400,500,600,700&display=swap");
-
 
 /*--------------------------------------------------------------
 # General
@@ -12,8 +10,10 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #ecf3fd;
+  background-image: url("../images/Layer\ 1.png");
 }
+
 
 a {
   text-decoration: none;
@@ -342,174 +342,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-/* #hero {
-  width: 100%;
-  height: 70vh;
-  background-color: rgba(9, 9, 9, 0.8);
-  overflow: hidden;
-  position: relative;
-} */
-/* 
-#hero .carousel,
-#hero .carousel-inner,
-#hero .carousel-item,
-#hero .carousel-item::before {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-#hero .carousel-item::before {
-  content: "";
-  background-color: rgba(45, 103, 60, 0.8);
-}
-
-#hero .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 50px;
-  right: 50px;
-}
-
-#hero .container {
-  text-align: center;
-}
-
-#hero h2 {
-  color: #fff;
-  margin-bottom: 20px;
-  font-size: 48px;
-  font-weight: 700;
-}
-
-#hero p {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-
-#hero .carousel-inner .carousel-item {
-  transition-property: opacity;
-  background-position: center top;
-}
-
-#hero .carousel-inner .carousel-item,
-#hero .carousel-inner .active.carousel-item-start,
-#hero .carousel-inner .active.carousel-item-end {
-  opacity: 0;
-}
-
-#hero .carousel-inner .active,
-#hero .carousel-inner .carousel-item-next.carousel-item-start,
-#hero .carousel-inner .carousel-item-prev.carousel-item-end {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#hero .carousel-control-next-icon,
-#hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 30px;
-  line-height: 0;
-  width: auto;
-  height: auto;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  transition: 0.3s;
-  color: rgba(255, 255, 255, 0.5);
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#hero .carousel-control-next-icon:hover,
-#hero .carousel-control-prev-icon:hover {
-  background: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.8);
-}
-
-#hero .carousel-indicators li {
-  cursor: pointer;
-  background: #fff;
-  overflow: hidden;
-  border: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-#hero .carousel-indicators li.active {
-  opacity: 1;
-  background: #5cb874;
-}
-
-#hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 32px;
-  border-radius: 4px;
-  transition: 0.5s;
-  line-height: 1;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  background: #5cb874;
-}
-
-#hero .btn-get-started:hover {
-  background: #6ec083;
-}
-
-@media (max-width: 992px) {
-  #hero {
-    height: 100vh;
-  }
-
-  #hero .carousel-container {
-    top: 66px;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 1024px) {
-
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-    width: 5%;
-  }
-}
-
-@media (max-height: 500px) {
-  #hero {
-    height: 120vh;
-  }
-} */
-
-/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -517,7 +349,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fcf9;
+  background-color: #fafaf0;
 }
 
 .section-title {
@@ -582,14 +414,14 @@ section {
 }
 
 .featured-services .icon i {
-  color: #5cb874;
-  font-size: 42px;
+  color: #FFD100;
+  font-size: 52px;
 }
 
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .featured-services .title a {
@@ -598,7 +430,7 @@ section {
 }
 
 .featured-services .icon-box:hover .title a {
-  color: #5cb874;
+  color: #FFD100;
 }
 
 .featured-services .description {
@@ -1618,7 +1450,8 @@ section {
 }
 
 .hiro-header-carousel .carousel-item-title {
-  font-size: 48px;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
   font-weight: 700;
   line-height: 1.21;
   padding-top: 83px;
@@ -1645,9 +1478,9 @@ section {
 .hiro-header-carousel .carousel-item-title::before {
   content: attr(data-number);
   position: absolute;
-  color: #91ADF3;
+  color: #a5bdfa;
   z-index: 1;
-  font-size: 200px;
+  font-size: 300px;
   left: 0;
   top: 0;
 }
@@ -1956,12 +1789,15 @@ section {
     width: 100%; }
 
     .team-section {
-      background-color: #3C589E; }
+      background-color: #3C589E; 
+      height: 700px;}
+      
       .team-section .section-title {
-        font-size: 32px;
+        text-align: left;
+        font-size: 60px;
         color: #fff;
         margin-top: 40px;
-        margin-bottom: 22px; }
+        margin-bottom: 10px; }
       .team-section .section-text-light {
         color: #d3d3d3;
         margin-bottom: 52px;
@@ -1971,7 +1807,8 @@ section {
         position: static;
         display: inline-block; }
       .team-section .carousel-control-prev {
-        margin-right: 30px; }
+        margin-right: 30px;
+        }
     
     .hiro-team-carousel .carousel-item {
       padding: 10px; }
