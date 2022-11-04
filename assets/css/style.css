@@ -391,7 +391,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: #2c52b3;
 }
 
 /*--------------------------------------------------------------
@@ -498,7 +498,7 @@ section {
 }
 
 .why-us .content-item p {
-  color: #aaaaaa;
+  color: #2c52b3;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1244,7 +1244,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #fb2f38;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -1254,6 +1254,7 @@ section {
 #footer p {
   font-size: 15;
   font-style: italic;
+  color: #fff867;
   padding: 0;
   margin: 0 0 40px 0;
 }
@@ -1265,7 +1266,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5cb874;
+  background: #2c52b3;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1278,7 +1279,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #449d5b;
+  background: #fb2f38;
   color: #fff;
   text-decoration: none;
 }
