@@ -2039,3 +2039,32 @@ section {
     }
 }
 
+
+.underlinesep{
+  letter-spacing: 15px;
+}
+
+.underlinesep::before{
+  content: '';
+  background: rgb(113, 113, 207);
+  height: 5px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  transform: translateY(63px);
+}
+
+
+.underlinesep::after{
+  content: '';
+  background: yellow;
+  height: 10px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(56px);
+}
+
