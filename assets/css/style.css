@@ -1083,55 +1083,84 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
-  padding: 30px 20px;
+.team {
   background: #fff;
+  padding-bottom: 30px;
 }
 
-.team .member img {
-  max-width: 60%;
-  border-radius: 50%;
-  margin: 0 0 30px 0;
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.team .member p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
 }
 
 .team .member .social {
-  margin-top: 15px;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+  background: rgba(44,82,179);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .team .member .social a {
-  color: #919191;
-  transition: 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  margin: 0 12px;
+  display: inline-block;
 }
 
 .team .member .social a:hover {
-  color: #5cb874;
+  color: #68A4C4;
 }
 
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin: 15px 0 5px 0;
+  font-size: 18px;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #68A4C4;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #666;
+}
+
+.team .member:hover .social {
+  bottom: 0;
+  opacity: 1;
+  transition: bottom ease-in-out 0.4s;
+}
+
+.team .member:hover .social a,
+.team .member:hover .social i {
+  line-height: 0;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
