@@ -676,18 +676,18 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #5cb874;
+  background: #fafaf0;
   padding: 80px 0;
 }
 
 .cta h3 {
-  color: #fff;
-  font-size: 28px;
+  color: #000;
+  font-size: 40px;
   font-weight: 700;
 }
 
 .cta p {
-  color: #fff;
+  color: #000;
 }
 
 .cta .cta-btn {
@@ -701,13 +701,13 @@ section {
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #000;
   border-radius: 4px;
 }
 
 .cta .cta-btn:hover {
-  background: #fff;
-  color: #5cb874;
+  background: #000;
+  color: #fafaf0;
 }
 
 @media (max-width: 1024px) {
