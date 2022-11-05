@@ -469,7 +469,8 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  padding: 0;
+  padding: 3rem;
+  background: #FBFBF8;
 }
 
 .why-us .row {
@@ -486,19 +487,20 @@ section {
 .why-us .content-item span {
   display: block;
   font-size: 24px;
-  font-weight: 400;
-  color: #fb2f38;
+  font-weight: 700;
+  color: #FFD100;
 }
 
 .why-us .content-item h4 {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: 700;
+  color:#5A84ED;
   padding: 0;
   margin: 20px 0;
 }
 
 .why-us .content-item p {
-  color: #2c52b3;
+  color: #3EA9DF;
   font-size: 15px;
   margin: 0;
   padding: 0;
