@@ -757,7 +757,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5cb874;
+  background: #5A84ED;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -834,7 +834,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #6ec083;
+  color: #5A84ED;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1237,7 +1237,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #090909;
+  background: #3C589E;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1247,7 +1247,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fb2f38;
+  color: #ECF1FD;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -1257,7 +1257,7 @@ section {
 #footer p {
   font-size: 15;
   font-style: italic;
-  color: #fff867;
+  color: #3EA9DF;
   padding: 0;
   margin: 0 0 40px 0;
 }
@@ -1786,7 +1786,7 @@ section {
     width: 0;
     height: 2px;
     opacity: 0;
-    background-color: #44d7b6;
+    background-color: #FFE055;
     transition: 0.3s ease-in-out all; }
   .link-hover-fx:hover::after {
     opacity: 1;
@@ -1811,28 +1811,39 @@ section {
         position: static;
         display: inline-block; }
       .team-section .carousel-control-prev {
-        margin-right: 30px;
+        margin-right: 70px;
         }
     
     .hiro-team-carousel .carousel-item {
       padding: 10px; }
     
     .hiro-team-carousel .team-card {
-      padding: 40px 0;
+      padding: 40px 0 50px;
       position: relative; }
       .hiro-team-carousel .team-card::before {
         content: "";
         display: block;
-        height: 8px;
+        height: 12px;
         width: 40%;
-        background-image: url("../images/Team_line.png");
-        background-size: auto 8px;
+        background-image: url("../images/Ellipse\ 1.png");
         position: absolute;
         left: 0;
-        top: 0; }
+        top: 0;
+        }
+        .hiro-team-carousel .team-card::after {
+          content: "";
+          display: block;
+          height: 12px;
+          width: 40%;
+          background-image: url("../images/Ellipse\ 1.png");
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          }
       .hiro-team-carousel .team-card .team-member-thumbnail {
         width: 100%;
-        max-height: 500px; }
+        /* max-height: 500px; */
+        }
       .hiro-team-carousel .team-card .team-member-details {
         position: absolute;
         background-color: #ECF1FD;
@@ -2088,7 +2099,6 @@ i{
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -2139,3 +2149,4 @@ i{
   margin-left: .5em;
   text-indent: -.5em;
 }
+
